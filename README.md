@@ -1,93 +1,93 @@
-# Robin's Portfolio
+# Personal Portfolio Website — Robin D. Hoesli
 
-Welcome to Robin's personal portfolio repository, created for the CS3365 Software Engineering Assignment 1.
+CS 3365: Software Engineering (Fall 2026) — Assignment 1: Build & Deploy Your Personal Portfolio
 
-Technologies used:
-- HTML5
-- CSS3
-- GitHub Pages
+---
 
-GitHub Pages Deployment:
-https://robler43.github.io/create_website/
+## 📌 Project Description
 
-Brief Instructions:
-Clone the repository and open `index.html` in any web browser to view the portfolio locally.
+This repository hosts the personal academic and professional portfolio website for **Robin D. Hoesli**, a Computer Science student at Texas Tech University and Software Engineer. The website presents background information, academic credentials, professional experience, technical skills, engineering projects, and contact channels. 
+
+The project was built and managed following Git and GitHub version control best practices, including incremental feature branching, meaningful commit history, pull/merge workflows, and automated deployment via GitHub Pages.
+
+---
+
+## 🚀 GitHub Pages Deployment Link
+
+- **Live Deployed Portfolio:** [https://robler43.github.io/create_website/](https://robler43.github.io/create_website/)
+- **GitHub Repository:** [https://github.com/robler43/create_website](https://github.com/robler43/create_website)
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5:** Semantic document structure across portfolio pages (`index.html`, `projects.html`).
+- **CSS3:** Custom responsive styling utilizing CSS Grid, Flexbox, media queries, and smooth hover micro-interactions (no external CSS frameworks).
+- **Font Awesome (v6.4.2):** Scalable vector icons for navigation, contact methods, and social profiles.
+- **Git & GitHub:** Version control with structured feature branches, meaningful commit messages, and upstream repository synchronization.
+- **GitHub Pages:** Static site hosting and continuous deployment from the `main` branch.
 
 ---
 
 ## 📂 Repository Structure
-The template includes the following structure:
 
-```
-📦create_website
- ┣ 📂files/         # Add your CV PDF inside this folder
- ┣ 📂images/        # Add your image inside this folder
- ┣ projects.html    # Update this file to add your own project details
- ┣ index.html       # Update this file for the main page of your portfolio
- ┣ 📜README.md      # Project instructions and information
- ┗ 📜LICENSE        # Licensing information
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. **Clone or Download This Repository**  
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/MaazAmjad/create_website.git
-```
-Alternatively, download it as a ZIP file and extract it.
-
----
-
-### 2. **Update Your Information**  
-Make the following changes:
-- Replace placeholder information (e.g., `Your Name`, `Project Title`) with your details.
-- Add your project code and any required files in the respective folders.
-
----
-
-### 3. **Create Your GitHub Repository**  
-1. Log in to your GitHub account.  
-2. Create a new repository (**public** unless otherwise specified).  
-3. Copy the repository URL for use in the next step.
-
----
-
-### 4. **Push Your Changes to Your Repository**  
-Run the following commands to upload your project to your new repository:
-
-```bash
-# Initialize a new Git repository
-git init
-
-# Stage all changes
-git add .
-
-# Commit your changes
-git commit -m "Initial commit"
-
-# Set the main branch
-git branch -M main
-
-# Add the remote repository
-git remote add origin <your-repo-url>
-
-# Push changes to GitHub
-git push -u origin main
+```text
+create_website/
+├── index.html                  # Main landing page: bio, education, contact info, and core skills
+├── projects.html               # Featured projects: research, engineering tools, and internships
+├── files/
+│   └── Robin_Hoesli_CV.pdf     # Downloadable Curriculum Vitae / Resume
+├── images/
+│   ├── profile.jpg             # Profile headshot
+│   └── logo.png                # Texas Tech University crest/logo
+├── Dockerfile                  # Container definition for containerized deployment
+├── .dockerignore               # Docker ignore rules
+└── README.md                   # Project documentation and submission details
 ```
 
 ---
 
-## 📝 Submission Instructions  
-Once you have pushed your work to GitHub, submit the repository link as per the instructions provided in the course.
+## 📖 Instructions for Viewing the Project
+
+### Option 1: View Online (Recommended)
+Visit the live GitHub Pages site directly in any modern web browser:  
+👉 **[https://robler43.github.io/create_website/](https://robler43.github.io/create_website/)**
+
+### Option 2: View Locally
+To clone and run the portfolio locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/robler43/create_website.git
+   ```
+
+2. **Navigate into the project directory:**
+   ```bash
+   cd create_website
+   ```
+
+3. **Open the site in your browser:**
+   - On **macOS**:
+     ```bash
+     open index.html
+     ```
+   - On **Linux**:
+     ```bash
+     xdg-open index.html
+     ```
+   - On **Windows**:
+     ```bash
+     start index.html
+     ```
+   - Or simply double-click `index.html` from your file explorer.
 
 ---
 
-### ⚖️ License  
-This project template is licensed under the [MIT License](LICENSE).
+## 👤 Author & Contact
 
----
-
-Celebrate and enjoy your coding experience! 🚀
+- **Author:** Robin D. Hoesli
+- **Institution:** Texas Tech University — Department of Computer Science
+- **Email:** [robinhsl04@gmail.com](mailto:robinhsl04@gmail.com)
+- **GitHub:** [@robler43](https://github.com/robler43)
+- **LinkedIn:** [linkedin.com/in/robinhoesli](https://www.linkedin.com/in/robinhoesli)
+- **Personal Website:** [rhoesli.xyz](https://rhoesli.xyz)
