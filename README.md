@@ -1,6 +1,17 @@
-# GitHub Template Repository
+# Robin's Portfolio
 
-Welcome to the GitHub template repository for the **courses (CS3361, CS3365)**! This template serves as a starting point for your first assignment of creating and deploying your portfolio. Follow the instructions below to download, customize, and push your work to your own GitHub repository.
+Welcome to Robin's personal portfolio repository, created for the CS3365 Software Engineering Assignment 1.
+
+Technologies used:
+- HTML5
+- CSS3
+- GitHub Pages
+
+GitHub Pages Deployment:
+https://robler43.github.io/create_website/
+
+Brief Instructions:
+Clone the repository and open `index.html` in any web browser to view the portfolio locally.
 
 ---
 
