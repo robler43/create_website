@@ -87,7 +87,6 @@ To clone and run the portfolio locally on your machine:
 
 - **Author:** Robin D. Hoesli
 - **Institution:** Texas Tech University — Department of Computer Science
-- **Email:** [robinhsl04@gmail.com](mailto:robinhsl04@gmail.com)
 - **GitHub:** [@robler43](https://github.com/robler43)
 - **LinkedIn:** [linkedin.com/in/robinhoesli](https://www.linkedin.com/in/robinhoesli)
 - **Personal Website:** [rhoesli.xyz](https://rhoesli.xyz)
